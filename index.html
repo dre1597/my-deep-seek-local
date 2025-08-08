@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ollama Chat</title>
+    <style>
+      body { font-family: sans-serif; margin: 2rem; max-width: 800px; }
+      textarea { width: 100%; height: 100px; margin-bottom: 1rem; }
+      button { padding: 0.5rem 1rem; }
+      pre { white-space: pre-wrap; background: #f0f0f0; padding: 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Chat com Ollama</h1>
+    <textarea id="prompt" placeholder="Digite seu prompt..."></textarea><br>
+    <button id="enviar">Enviar</button>
+    <pre id="resposta"></pre>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
